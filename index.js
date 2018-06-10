@@ -401,7 +401,8 @@ var cats = [
 "https://www.aspca.org/sites/default/files/cat-care_urine-marking_main-image.jpg",
 "https://vignette1.wikia.nocookie.net/houseofnight/images/8/8b/Cats.jpg/revision/latest?cb=20130812053537",
 "https://s-media-cache-ak0.pinimg.com/originals/f0/3b/76/f03b7614dfadbbe4c2e8f88b69d12e04.jpg",
-"http://www.rd.com/wp-content/uploads/sites/2/2016/04/15-cat-wants-to-tell-you-attention.jpg"
+"http://www.rd.com/wp-content/uploads/sites/2/2016/04/15-cat-wants-to-tell-you-attention.jpg",
+"http://ift.tt/2fWjbf1",
 ]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
