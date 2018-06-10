@@ -594,7 +594,7 @@ client.on('ready', () => {
 client.on("message", message => {
      if (message.content === "-rules") {
          if(!message.channel.guild) return message.reply('** This command only for servers **');
-        message.reply("go to #📌rules📌 ")
+        message.reply("go to #rules")
      }
 });
 
