@@ -84,7 +84,7 @@ const x5bz4 = [
    '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدنا في نشر البوت وادخل هذا السيرفر https://discord.gg/T75JqCQ ***'
 ]
  client.on('message', message => {
- if (message.content.startsWith('-مريم')) {
+ if (message.content.startsWith('_Mariam')) {
   var mariam= new Discord.RichEmbed()
   .setTitle("لعبة مريم ..")
   .setColor('RANDOM')
@@ -144,7 +144,7 @@ client.on('message', message => {
     if(message.content.includes('discord.gg')){
 		if(!message.channel.guild) return;
         message.delete()
-    return message.reply(`** No Invite Links للاسف ما تقدر تنشر :) ههههههههههايي 😠 ! **`)
+    return message.reply(`** No Invite Links😠 ! **`)
     }
 });
 
@@ -663,10 +663,10 @@ member.send( `${member} ! ` + "**" + message.guild.name + " : ** " + message.con
 });
 });
 Client.on("message", message => {
-    var prefix = "-mommy";
+    var prefix = "_mommy";
  
             var args = message.content.substring(prefix.length).split(" ");
-            if (message.content.startsWith(prefix - "bc")) {
+            if (message.content.startsWith(prefix - "-bc")) {
                          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
  if (!args[1]) {
                                 let embed3 = new Discord.RichEmbed()
@@ -915,7 +915,7 @@ const cuttweet = [
 ]
 
 client.on('message', message => {
-  if (message.content === `-كت تويت`) {
+  if (message.content === `-tk`) {
 message.channel.sendMessage({embed: {
   color: 3547003,
   description: `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`
@@ -1050,7 +1050,7 @@ client.on("message", message => {
             if (message.content.startsWith(prefix + "clear")) {
  if (!args[1]) {
                                 let x5bz1 = new Discord.RichEmbed()
-                                .setDescription("-clear <number>")
+                                .setDescription("_clear <number>")
                                 .setColor("#0000FF")
                                 message.channel.sendEmbed(x5bz1);
                             } else {
