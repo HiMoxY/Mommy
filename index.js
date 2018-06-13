@@ -185,7 +185,7 @@ client.on('message', msg => {
 
 
 client.on("message", message => {
- if (message.content === "-help") {
+ if (message.content === "_help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot:heart: All rights reserved')
@@ -392,7 +392,7 @@ client.on('message', message => {
 
 
 
-   var prefix = "-";
+   var prefix = "_";
 var gores = [
 
 "http://blog.ninapaley.com/wp-content/uploads/2018/01/Goddess_gif_small_5.gif",
@@ -548,7 +548,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`in 54 server -help`,)
+  client.user.setGame(`by @HiMoxY™#1027 | -help`,)
    client.user.setStatus("dnd")
 });
 
@@ -992,7 +992,7 @@ client.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-// -say
+// _say
   if (command === "say") {
           message.delete()
     message.channel.sendMessage(args.join(" ")).catch(console.error);
@@ -1071,7 +1071,7 @@ client.on("message", message => {
 
 
 
-var prefix = "-";
+var prefix = "_";
 client.on('message', message => {
     if(message.content == prefix + 'server') {
         var servername = message.guild.name
@@ -1112,7 +1112,7 @@ client.on('message', message => {
 
 
 
-  var prefix = "-";
+  var prefix = "_";
     client.on('message', message => {
     if(message.content.startsWith(prefix + '_avatar')) {
          var men = message.mentions.users.first();
