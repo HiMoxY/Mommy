@@ -1182,4 +1182,4 @@ message.channel.sendEmbed(avatar)
 
 
 
-client.login("NDU1NDI5OTUxMTAxODYxODg5.DgM0GQ.gPJJ7aRheTPD2KTNE7g-nn6dInQNDU1NDI5OTUxMTAxODYxODg5.DgM0GQ.gPJJ7aRheTPD2KTNE7g-nn6dInQ");
+client.login(process.env.TOKEN);
