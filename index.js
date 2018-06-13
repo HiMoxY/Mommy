@@ -206,7 +206,7 @@ client.on("message", message => {
       .setFooter('Orders under maintenance (you can try them) and thank you')
       .addField('_ghg', `للتغريد`)
       .addField('_embed', `The bot repeats the words I said to him`)
-	  .addField('_gores', `You must have a picture of a cat`)
+	  .addField('_pics', `You must have a picture of a cat`)
 	  .addField('_rules', `to learn rules`)
 	  .addField('_donation', `to supporting server`)
   message.author.send({embed});
@@ -406,10 +406,10 @@ var gores = [
 ]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
-    if(message.content.startsWith(prefix + 'gore')) {
+    if(message.content.startsWith(prefix + 'pics')) {
          var gore = new Discord.RichEmbed()
-.setImage(gores[Math.floor(Math.random() * gores.length)])
-message.channel.sendEmbed(gore);
+.setImage(pics[Math.floor(Math.random() * pics.length)])
+message.channel.sendEmbed(pics);
     }
 });
 
