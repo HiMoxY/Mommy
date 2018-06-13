@@ -84,7 +84,7 @@ const x5bz4 = [
    '*** انتظر الجزء الثاني عندما يوصل البوت 100 سيرفر , ساعدنا في نشر البوت وادخل هذا السيرفر https://discord.gg/T75JqCQ ***'
 ]
  client.on('message', message => {
- if (message.content.startsWith('-مريم')) {
+ if (message.content.startsWith('_Mariam')) {
   var mariam= new Discord.RichEmbed()
   .setTitle("لعبة مريم ..")
   .setColor('RANDOM')
@@ -144,7 +144,7 @@ client.on('message', message => {
     if(message.content.includes('discord.gg')){
 		if(!message.channel.guild) return;
         message.delete()
-    return message.reply(`** No Invite Links للاسف ما تقدر تنشر :) ههههههههههايي 😠 ! **`)
+    return message.reply(`** No Invite Links😠 ! **`)
     }
 });
 
@@ -171,7 +171,7 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-  if (msg.content === '-Who is playing') {
+  if (msg.content === '_Who is playing') {
     msg.reply('i dont play any game :)');
   }
 });
@@ -185,30 +185,30 @@ client.on('message', msg => {
 
 
 client.on("message", message => {
- if (message.content === "-help") {
+ if (message.content === "_help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Premium Bot:heart: All rights reserved')
       .setFooter('اوامر الادمنيه')
       .setFooter('======================================================')
       .setFooter('اوامر الاعضاء')
-      .addField('-invite', `Add bot to server`)
-	  .addField('-roles', `To know the salary in the server`)
-      .addField('-avatar', `You have the right to mean your account picture`)
-      .addField('-2avatar', `Deviation through the founder`)
-	  .addField('-server', `The server information answers you`)
-	  .addField('-id', `Your profile must have your right`)
-	  .addField('-clear', `The pot wipe 100 rs`)
-	  .addField('-say', `The bot repeats the words you say`)
-	  .addField('-ping', `your ping `)
-      .addField('-support', `Server support`)
+      .addField('_invite', `Add bot to server`)
+	  .addField('_roles', `To know the salary in the server`)
+      .addField('_avatar', `You have the right to mean your account picture`)
+      .addField('_2avatar', `Deviation through the founder`)
+	  .addField('_server', `The server information answers you`)
+	  .addField('_id', `Your profile must have your right`)
+	  .addField('_clear', `The pot wipe 100 rs`)
+	  .addField('_say', `The bot repeats the words you say`)
+	  .addField('_ping', `your ping `)
+      .addField('_support', `Server support`)
       .setFooter('======================================================')
       .setFooter('Orders under maintenance (you can try them) and thank you')
-      .addField('-غرد', `للتغريد`)
-      .addField('-embed', `The bot repeats the words I said to him`)
-	  .addField('-cat', `You must have a picture of a cat`)
-	  .addField('-rules', `to learn rules`)
-	  .addField('-donation', `to supporting server`)
+      .addField('_غرد', `للتغريد`)
+      .addField('_embed', `The bot repeats the words I said to him`)
+	  .addField('_cat', `You must have a picture of a cat`)
+	  .addField('_rules', `to learn rules`)
+	  .addField('_donation', `to supporting server`)
   message.author.send({embed});
 
  }
@@ -224,11 +224,11 @@ client.on("message", message => {
 
 
 client.on("message", message => {
- if (message.content === "-invite") {
+ if (message.content === "_invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Mommy Bot All rights reserved')
-      .addField('Thank you for using Premium Bot', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=350470102803546115`)
+      .addField('Thank you for using Premium Bot', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=455505297520328724`)
   message.author.send({embed});
 
  }
@@ -268,11 +268,11 @@ client.on("message", message => {
 
 
 client.on("message", message => {
- if (message.content === "-support") {
+ if (message.content === "_support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Mommy Bot All rights reserved')  
-      .addField('Server Technical Support', `  https://discord.gg/T75JqCQ  `)
+      .addField('Server Technical Support', `  https://discord.gg/EsZhDJ8  `)
   message.author.send({embed});
 
  }
@@ -302,7 +302,7 @@ client.on("message", message => {
 const TOKEN = "";
 
 function commandIs(str, msg){
-    return msg.content.toLowerCase().startsWith('-' + str);
+    return msg.content.toLowerCase().startsWith('_' + str);
 }
 
 function pluck(array) {
@@ -329,7 +329,7 @@ function hasRole(mem, role) {
 
 
 client.on('message', message => {
-     if (message.content === "-كم") {
+     if (message.content === "_howm") {
 		 if(!message.channel.guild) return;
      let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
@@ -347,7 +347,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-     if (message.content === "-ping") {
+     if (message.content === "_ping") {
       const embed = new Discord.RichEmbed()
  
   .setColor("#FF0000")
@@ -371,7 +371,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === "-roles") {
+    if (message.content === "_roles") {
 		if(!message.channel.guild) return;
         var roles = message.guild.roles.map(roles => `${roles.name}, `).join(' ')
         const embed = new Discord.RichEmbed()
@@ -392,7 +392,7 @@ client.on('message', message => {
 
 
 
-   var prefix = "-picture";
+   var prefix = "_picture";
 var cats = [
 
 "https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg",
@@ -548,7 +548,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`in 54 server -help`,"")
+  client.user.setGame(`by HiMoxY™#1027|_help`,)
    client.user.setStatus("dnd")
 });
 
@@ -620,7 +620,7 @@ client.on("message", message => {
 
 
 client.on('message', message => {
-    if (message.content.startsWith("-avatar")) {
+    if (message.content.startsWith("_avatar")) {
         var mentionned = message.mentions.users.first();
     var x5bzm;
       if(mentionned){
@@ -655,7 +655,7 @@ client.on('message', message => {
 
 
 Client.on('message', message => {
-if (message.content.split(' ')[0] == '-bc')
+if (message.content.split(' ')[0] == '_bc')
  message.guild.members.forEach( member => {
          if (!message.member.hasPermission("ADMINISTRATOR"))  return;
 member.send( `${member} ! ` + "**" + message.guild.name + " : ** " + message.content.substr(3));
@@ -820,7 +820,7 @@ if (command == "by") {
 
 
 client.on("message", message => {
-    var prefix = "-clear";
+    var prefix = "_clear";
  
             var args = message.content.substring(prefix.length).split(" ");
             if (message.content.startsWith(prefix - "clear")) {
@@ -915,7 +915,7 @@ const cuttweet = [
 ]
 
 client.on('message', message => {
-  if (message.content === `-كت تويت`) {
+  if (message.content === `_how`) {
 message.channel.sendMessage({embed: {
   color: 3547003,
   description: `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`
@@ -981,7 +981,7 @@ client.on("guildMemberAdd", member => {
 
 
 
-var prefix = "-";
+var prefix = "_";
 
 client.on('message', message => {
   if (message.author.bot) return;
@@ -1026,7 +1026,7 @@ if (command == "embed") {
 
 
 client.on('message', message => {
-   if (message.content === "-id") {
+   if (message.content === "_id") {
    let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
   .setThumbnail(message.author.avatarURL)
@@ -1045,12 +1045,12 @@ client.on('message', message => {
 
 
 client.on("message", message => {
-    var prefix = "-";
+    var prefix = "_";
             var args = message.content.substring(prefix.length).split(" ");
             if (message.content.startsWith(prefix + "clear")) {
  if (!args[1]) {
                                 let x5bz1 = new Discord.RichEmbed()
-                                .setDescription("-clear <number>")
+                                .setDescription("_clear <number>")
                                 .setColor("#0000FF")
                                 message.channel.sendEmbed(x5bz1);
                             } else {
@@ -1071,28 +1071,28 @@ client.on("message", message => {
 
 
 
-var prefix = "-";
+var prefix = "_";
 client.on('message', message => {
     if(message.content == prefix + 'server') {
         var servername = message.guild.name
-        var اونر = message.guild.owner
-        var اعضاء = message.guild.memberCount
-        var ايدي = message.guild.id
-        var بلدالسيرفر = message.guild.region
-        var الرومات = message.guild.channels.size
-        var الرتب = message.guild.roles
-        var عمل = message.guild.createdAt
-        var الروم = message.guild.defaultChannel
+        var owner = message.guild.owner
+        var members = message.guild.memberCount
+        var ID = message.guild.id
+        var Country of server = message.guild.region
+        var rooms = message.guild.channels.size
+        var Ranks = message.guild.roles
+        var work = message.guild.createdAt
+        var room = message.guild.defaultChannel
         var server = new Discord.RichEmbed()
         .setThumbnail(message.guild.iconURL)
-        .addField('اسم السيرفر', servername)
-        .addField('اي دي السيرفر ' , [ايدي])
-        .addField('أعضاء السيرفر', اعضاء)
-        .addField('رومات السيرفر', الرومات)
-        .addField('روم الشات الأساسي', الروم)
-        .addField('صاحب السيرفر', اونر)
-        .addField('بلد السيرفر', بلدالسيرفر)
-        .addField('تاريخ افتتاح السيرفر', عمل)
+        .addField('server name', servername)
+        .addField('ID ' , [ID])
+        .addField('SERVER members', members)
+        .addField('server room', rooms)
+        .addField('Basic Chat Room', room)
+        .addField('server owner', owner)
+        .addField('Country of the server', server discord)
+        .addField('The opening date of the server', work)
         .setColor('RANDOM')
 
         message.channel.sendEmbed(server)
