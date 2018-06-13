@@ -206,7 +206,7 @@ client.on("message", message => {
       .setFooter('Orders under maintenance (you can try them) and thank you')
       .addField('_ghg', `للتغريد`)
       .addField('_embed', `The bot repeats the words I said to him`)
-	  .addField('_cat', `You must have a picture of a cat`)
+	  .addField('_gores', `You must have a picture of a cat`)
 	  .addField('_rules', `to learn rules`)
 	  .addField('_donation', `to supporting server`)
   message.author.send({embed});
@@ -1114,7 +1114,7 @@ client.on('message', message => {
 
   var prefix = "_";
     client.on('message', message => {
-    if(message.content.startsWith(prefix + '_avatar')) {
+    if(message.content.startsWith(prefix + '2avatar')) {
          var men = message.mentions.users.first();
       var heg;
       if(men) {
