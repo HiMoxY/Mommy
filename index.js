@@ -548,7 +548,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`by @HiMoxY™#1027 | -help`,)
+  client.user.setGame(`by @HiMoxY™#1027 | _help`,)
    client.user.setStatus("dnd")
 });
 
