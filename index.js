@@ -204,7 +204,7 @@ client.on("message", message => {
       .addField('_server', `Server support`)
       .setFooter('======================================================')
       .setFooter('Orders under maintenance (you can try them) and thank you')
-      .addField('_ghg', `للتغريد`)
+      .addField('_howm', `how much bots  on server discord`)
       .addField('_embed', `The bot repeats the words I said to him`)
 	  .addField('_gores', `You must have a picture of a cat`)
 	  .addField('_rules', `to learn rules`)
