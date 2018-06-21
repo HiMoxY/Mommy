@@ -204,7 +204,7 @@ client.on("message", message => {
       .addField('_server', `Server support`)
       .setFooter('======================================================')
       .setFooter('Orders under maintenance (you can try them) and thank you')
-      .addField('_howm', `how much bots  on server discord`)
+      .addField('_srv', `how much bots  on server discord`)
       .addField('_embed', `The bot repeats the words I said to him`)
 	  .addField('_cats', `You must have a picture of a cat`)
 	  .addField('_twitch', `this is twitch channel of the developer `)
@@ -272,7 +272,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Mommy™ Bot All rights reserved')  
-      .addField('Server Technical Support', ` join server discord Mommy : https://discord.gg/WbWkQZa  `)
+      .addField('Server Technical Support', ` join server discord Mommy : https://discord.gg/6MdWGcF  `)
   message.author.send({embed});
 
  }
@@ -329,7 +329,7 @@ function hasRole(mem, role) {
 
 
 client.on('message', message => {
-     if (message.content === "_howm") {
+     if (message.content === "_srv") {
 		 if(!message.channel.guild) return;
      let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
@@ -991,7 +991,7 @@ const cuttweet = [
 ]
 
 client.on('message', message => {
-  if (message.content === `-tk`) {
+  if (message.content === `-qa`) {
 message.channel.sendMessage({embed: {
   color: 3547003,
   description: `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`
