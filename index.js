@@ -990,6 +990,7 @@ const cuttweet = [
      'Do you have any kids?',
      'how do you like this discord ?',
      'whats is your favourite celebrities ?',
+     'from 1 to 9000 how much do you like memes ?',
 ]
 
 client.on('message', message => {
