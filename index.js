@@ -393,7 +393,7 @@ client.on('message', message => {
 
 
    var prefix = "_";
-var gores = [
+var cats = [
 
 "https://d.top4top.net/p_902xtbbr1.jpg",
 "https://e.top4top.net/p_902ijp1y1.jpg",
@@ -419,9 +419,9 @@ var gores = [
 ]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
-    if(message.content.startsWith(prefix + 'gore')) {
+    if(message.content.startsWith(prefix + 'cats')) {
          var gore = new Discord.RichEmbed()
-.setImage(gores[Math.floor(Math.random() * gores.length)])
+.setImage(cats[Math.floor(Math.random() * cats.length)])
 message.channel.sendEmbed(gore);
     }
 });
