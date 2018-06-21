@@ -207,7 +207,7 @@ client.on("message", message => {
       .addField('_howm', `how much bots  on server discord`)
       .addField('_embed', `The bot repeats the words I said to him`)
 	  .addField('_cats', `You must have a picture of a cat`)
-	  .addField('_rules', `to learn rules`)
+	  .addField('_twitch', `this is twitch channel of the developer `)
 	  .addField('_donation', `to supporting server`)
   message.author.send({embed});
 
@@ -271,7 +271,7 @@ client.on("message", message => {
  if (message.content === "_server") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Mommy Bot All rights reserved')  
+      .setFooter('© Mommy™ Bot All rights reserved')  
       .addField('Server Technical Support', ` join server discord Mommy : https://discord.gg/WbWkQZa  `)
   message.author.send({embed});
 
@@ -352,8 +352,7 @@ client.on('message', message => {
  
   .setColor("#FF0000")
   .addField('``The speed of the bot connection`` ' , `${Date.now() - message.createdTimestamp}` + 'ms`')
-                 .setFooter(` Premium Bot
- .`, 'https://e.top4top.net/p_8913asvp1.jpg')
+                 .setFooter(` Mommy™.`, 'https://e.top4top.net/p_8913asvp1.jpg')
 
   message.channel.sendEmbed(embed);
     }
@@ -670,9 +669,9 @@ client.on('ready', () => {
 
 
 client.on("message", message => {
-     if (message.content === "_rules") {
+     if (message.content === "_twitch") {
          if(!message.channel.guild) return message.reply('** This command only for servers **');
-        message.reply("go to #rules ")
+        message.reply("this is my twitch channel : https://www.twitch.tv/himoxytm :) ")
      }
 });
 
@@ -900,7 +899,7 @@ client.on("message", message => {
     var prefix = "_clear";
  
             var args = message.content.substring(prefix.length).split(" ");
-            if (message.content.startsWith(prefix - "_clear")) {
+            if (message.content.startsWith(prefix - "clear")) {
 				if(!message.channel.guild) return;
    if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('⚠ | *** ⚠ لا يوجد لك مانج ماسج ***');
         var msg;
@@ -912,7 +911,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "© Premium Bot ™."
+          text: "© Mommy™."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
