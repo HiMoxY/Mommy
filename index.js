@@ -1043,14 +1043,14 @@ const cuttweet = [
      '❔questions : Why does mineral water that has "trickled through mountains for centuries" go out of date next year?',
      '❔questions : If Milli Vanilli fell in the woods, would someone else make a sound?',
      '❔questions : Why are softballs hard?', 
+
      '❔questions : Can vampires get AIDS?',
      '❔questions : Why do toasters always have a setting that burns the toast to a horrible crisp which no decent human being would eat?',
      '❔questions : Why are they called goose bumps? Do geese get people bumps?',
      '❔questions : If you are born at exactly midnight is your birthday on both those days?',
      '❔questions : If you are caught "between a rock and a hard place", is the rock not hard?',
      '❔questions : Why is it we have the weight of the world on our shoulders but have to get it off our chests?',
-     '❔questions : If you tell someone they are being judgmental aren t you being judgmental yourself?
-',
+     '❔questions : If you tell someone they are being judgmental aren t you being judgmental yourself?',
      '❔questions : Why do they call it your "bottom" when it is really in the middle of your body?',
      '❔questions :If an anarchist group attained political power, would they by principle have to dissolve their own government? ',
 
