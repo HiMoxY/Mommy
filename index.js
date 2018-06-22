@@ -1166,7 +1166,6 @@ const cuttweet = [
      '❔questions : ',
      '❔questions : ',
      '❔questions : ',
-
 ]
 
 client.on('message', message => {
