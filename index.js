@@ -991,6 +991,7 @@ const cuttweet = [
      'how do you like this discord ?',
      'whats is your favourite celebrities ?',
      'from 1 to 9000 how much do you like memes ?',
+     'would you like to fight one duck sized elephant or one million elephant sized ducks ?',
 ]
 
 client.on('message', message => {
