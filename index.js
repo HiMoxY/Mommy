@@ -983,6 +983,7 @@ const cuttweet = [
      '❔questions : what hobbies are you into ?‏',
      '❔questions : What do you think about Morocco?',
      '❔questions : what is your favourite food ?',
+
      '❔questions : What sports do you like?‏',
      '❔questions : What Video Games do you like?',
      '❔questions : How old are you?',
@@ -999,6 +1000,7 @@ const cuttweet = [
      '❔questions : if all the worlds a stage , where does the audiences sit ?',
      '❔questions : is it true cannibals dont eat clowns be cause they taste funny ?',
      '❔questions : if it is tourist season why cant we shoot them ?',
+
      '❔questions : why are the alphabets in the order that they are ? is it because its a song?',
      '❔questions : If someone cant see, they are blind and if someone cant hear, they are deaf, so what do you call people who cant smell?',
      '❔questions : How do they get those boats in those glass bottles?',
@@ -1017,6 +1019,7 @@ const cuttweet = [
      '❔questions : Why is an alarm clock going "off" when it actually turns on?',
      '❔questions : If you wore a Teflon suit, could you ever end up in a sticky situation?',
      '❔questions : How fast do hotcakes sell?',
+
      '❔questions : If you mated a bull dog and a shih tzu, would it be called a bullbleep?',
      '❔questions : Why are they called stairs inside but steps outside?',
      '❔questions : Does the President have to pay taxes?',
@@ -1031,6 +1034,7 @@ const cuttweet = [
      '❔questions : Dont you find it worrying that doctors call treating you their "practice"?',
      '❔questions : Is the word "dictionary" in the dictionary?',
      '❔questions : What do you call a female daddy long legs?',
+
      '❔questions : If croutons are stale bread, why do they come in airtight packages?',
      '❔questions : Why cant women put on mascara with their mouth closed?',
      '❔questions : If a transport truck carrying a load of cars gets into a car accident, does it increase the number of the cars in the pile-up?',
@@ -1042,6 +1046,7 @@ const cuttweet = [
      '❔questions : Can vampires get AIDS?',
      '❔questions : Why do toasters always have a setting that burns the toast to a horrible crisp which no decent human being would eat?',
      '❔questions : Why are they called goose bumps? Do geese get people bumps?',
+
      '❔questions : Why is it that lemon dish soap is made with real lemons, but lemon juice is artificial flavouring?',
      '❔questions : If you stole a pen from a bank then would it still be considered a bank robbery?',
      '❔questions : Is French kissing in France just called kissing?',
@@ -1055,6 +1060,7 @@ const cuttweet = [
      '❔questions : Why does everyone speak different languages and have different accents if we all originally came from the same place?',
      '❔questions : Why is it we have the weight of the world on our shoulders but have to get it off our chests?',
      '❔questions : If you are caught "between a rock and a hard place". is the rock not hard?',
+
      '❔questions : If you are born at exactly midnight is your birthday on both those days?',
      '❔questions : Do the different M&M colours taste different?',
      '❔questions : Why dont you hear thunder with heat lightning?',
@@ -1066,6 +1072,7 @@ const cuttweet = [
      '❔questions : If there is an exception to every rule, is there an exception to that rule?',
      '❔questions : Can blind people see their dreams?',
      '❔questions : Where does the white go when the snow melts?',
+
      '❔questions : What came first, the fruit or the colour orange?',
      '❔questions : Is a sleeping bag a nap sack?',
      '❔questions : If Pringles are so good that once you pop, you cant stop why do they come with a resealable lid?',
@@ -1075,6 +1082,7 @@ const cuttweet = [
      '❔questions : If you dig a tunnel straight through the earth, will you come out with your feet first?',
      '❔questions : How come the sun makes your skin darker but your hair lighter?',
      '❔questions : What do you call male ballerinas?',
+
      '❔questions : Why do hotdogs come in packs of 8 when hotdog rolls come in packs of 10?',
      '❔questions : Why do they call it a black light when it is really purple?',
      '❔questions : Why is the blackboard green?',
