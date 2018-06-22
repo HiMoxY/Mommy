@@ -993,6 +993,7 @@ const cuttweet = [
      'from 1 to 9000 how much do you like memes ?',
      'would you like to fight one duck sized elephant or one million elephants sized ducks ?',
      'would you like to fight one baby sized elephant or one thousand babys sized elephants ?',
+     'peanut butter or jelly ?',
 ]
 
 client.on('message', message => {
