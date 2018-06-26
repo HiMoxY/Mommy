@@ -201,7 +201,7 @@ client.on("message", message => {
 	  .addField('_clear', `The pot wipe 100 rs`)
 	  .addField('_say', `The bot repeats the words you say`)
 	  .addField('_ping', `your ping `)
-      .addField('_server', `Server support`)
+      .addField('_support', `Server support`)
       .setFooter('======================================================')
       .setFooter('Orders under maintenance (you can try them) and thank you')
       .addField('_srv', `how much bots  on server discord`)
@@ -268,7 +268,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
- if (message.content === "_server") {
+ if (message.content === "_support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Mommy™ Bot All rights reserved')  
