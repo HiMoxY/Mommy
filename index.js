@@ -206,7 +206,7 @@ client.on("message", message => {
       .setFooter('Orders under maintenance (you can try them) and thank you')
       .addField('_srv', `how much bots  on server discord`)
       .addField('_embed', `The bot repeats the words I said to him`)
-	  .addField('_cats', `You must have a picture of a cat`)
+	  .addField('_cats', `send pictures of cats`)
 	  .addField('_twitch', `this is twitch channel of the developer `)
 	  .addField('_donation', `to supporting server`)
   message.author.send({embed});
