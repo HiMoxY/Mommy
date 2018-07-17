@@ -63,11 +63,11 @@ client.on('message', message => {
         message.delete()
     return message.reply(`** No Invite Links :angry: ! **`)
     }
-	if (message.content === '-play') {
+	if (message.content === '.play') {
     if (message.member.voiceChannel) {       
         message.member.voiceChannel.join()
         .then(connection => {
-        connection.playStream("https://streaming.radionomy.com/QGProdRadioRapMarocain"); //for playing an audiostream/radio
+        connection.playStream("http://19763.live.streamtheworld.com/977_HITS.mp3"); //for playing an audiostream/radio
         })
         .catch(console.log);
         message.reply('Joined and started playing.');
@@ -78,7 +78,7 @@ client.on('message', message => {
 });
 client.on('message', msg => {
   if (msg.content === '.invite') {
-    msg.reply('https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=465553252969086987');
+    msg.reply('https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=463918426587660289');
   }
 });
 client.on('message', msg => {
@@ -87,7 +87,7 @@ client.on('message', msg => {
   }
 });
 client.on("message", message => {
-    var prefix = "-";
+    var prefix = "mm";
  
             var args = message.content.substring(prefix.length).split(" ");
             if (message.content.startsWith(prefix + "clear")) {
@@ -101,7 +101,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "Messages successfully cleared",
         footer: {
-          text: "HiMoxY®🔊."
+          text: "HiMoxY™🔊."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -110,13 +110,13 @@ client.on("message", message => {
 });
 // Your Avatar URL!
 client.on('message', message => {
-    if (message.content === "-Avatar") {
+    if (message.content === ".Avatar") {
     message.reply(message.author.avatarURL); 
     }
 });
 client.on('message', msg => {
-  if (msg.content === '-suppport') {
-    msg.reply('server support join ,https://discord.gg/WSXUkRG');
+  if (msg.content === '.suppport') {
+    msg.reply('server support join ,https://discord.gg/sgexBXv');
   }
 });
 client.on("message", message => {
@@ -133,7 +133,7 @@ client.on("message", message => {
   .setThumbnail(message.author.avatarURL)  
   .setAuthor(message.author.username)
 .setDescription("Account information")
-               .setFooter(`HiMoxY®🔊.`, '')
+               .setFooter(`HiMoxY™🔊.`, '')
   .setColor("#9B59B6")
   .addField("account name", `${message.author.username}`)
   .addField('account code', message.author.discriminator)
