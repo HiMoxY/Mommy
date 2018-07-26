@@ -63,7 +63,7 @@ client.on('message', message => {
         message.delete()
     return message.reply(`** No Invite Links :angry: ! **`)
     }
-	if (message.content === '>play') {
+	if (message.content === '$play') {
     if (message.member.voiceChannel) {       
         message.member.voiceChannel.join()
         .then(connection => {
@@ -112,7 +112,7 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-  if (msg.content === '_play') {
+  if (msg.content === '$play') {
     msg.reply('i dont play any game :)');
   }
 });
@@ -126,7 +126,7 @@ client.on('message', msg => {
 
 
 client.on("message", message => {
- if (message.content === ">help") {
+ if (message.content === "$help") {
   const embed = new Discord.RichEmbed() 
       .setColor("#ffff00")
       .setThumbnail(message.author.avatarURL)
@@ -142,58 +142,53 @@ describe the your bot here
 **
 『>play / play music radio』 
 『>id / your profile id』
-『>invite/ Add bot to server』
-『>embed/ The bot repeats the words I you type for him in a boxed window !』
-『>say /The bot repeats the words I you type for him』
-『>roles / roles of server 』
+『$invite/ Add bot to server』
+『$embed/ The bot repeats the words I you type for him in a boxed window !』
+『$say /The bot repeats the words I you type for him』
+『$roles / roles of server 』
 『mention bot / he will respond to you mean @HiMoxY™#7798』
-『>server / information about The server』
-『>animal/ send pictures of animal』
-『>meme/ send pictures of memes』
-『>gif/ send pictures of gif』
-『>hug/ send pictures of hug with __someone__ (@mention) 』
+『$server / information about The server』
+『$animal/ send pictures of animal』
+『$meme/ send pictures of memes』
+『$gif/ send pictures of gif』
+『$hug/ send pictures of hug with __someone__ (@mention) 』
 
-『>cats/ send pictures of』
-『>avatar/ free access to personnel account picture』
-『>time/ if you want to see time of your country』
-『>dt/ Offers time in UAE, Makkah, Egypt and history』 
-『>stats/ uptime』
+『$cats/ send pictures of』
+『$avatar/ free access to personnel account picture』
+『$time/ if you want to see time of your country』
+『$dt/ Offers time in UAE, Makkah, Egypt and history』 
+『$stats/ uptime』
 **
 
         ***__Bot orders__***
 **
-『>ping / if you want to see ping of the bot』
-『>uptime / It shows you how much pot is running』
-『>support / Server support』
-『>invite / Add bot to server』
-『>twitch/ this is twitch channel of the developer』
-『>member / Members Status』
-『>bot / Basic Information About the bot』
-『>donation/ to supporting server』
+『$ping / if you want to see ping of the bot』
+『$uptime / It shows you how much pot is running』
+『$support / Server support』
+『$invite / Add bot to server』
+『$twitch/ this is twitch channel of the developer』
+『$member / Members Status』
+『$bot / Basic Information About the bot』
+『$donation/ to supporting server』
 **
 
         ***__Administrative Orders__***
 **
-『>kick / kick』
-『>ban / ban』
-『>mute /mute』
-『>unmute /unmute』
-『>mutechannel /mutechannel』
-『>unmutechannel /unmutechannel』
-『>add.r / add role』
-『>ct /make chat room』
-『>cv /make voice room』
-『>server-av /avatar of the bot』
+『$kick / kick』
+『$ban / ban』
+『$mute /mute』
+『$unmute /unmute』
+『$mutechannel /mutechannel』
+『$unmutechannel /unmutechannel』
+『$add.r / add role』
+『$ct /make chat room』
+『$cv /make voice room』
+『$server-av /avatar of the bot』
 **
 
 
         ***__Games orders__***
- **       
-『>لعبه صراحه / صراحه』
-『>لعبه مريم / مريم』
-『>لعبه خواطر / خواطر』
-『>يعطيك شعر عن الحب / حب』
-『>يخيرك بين شي وشي / لو خيروك』
+ **    
 『>num / random number』
 『>qa / Ask you questions 』
 **
@@ -217,7 +212,7 @@ message.channel.sendEmbed(embed)
 
 
 client.on("message", message => {
- if (message.content === ">invite") {
+ if (message.content === "$invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter(" HiMoxY™")
@@ -263,7 +258,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
- if (message.content === ">support") {
+ if (message.content === "$support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter(" Chilled Bot")
@@ -299,7 +294,7 @@ client.on("message", message => {
 const TOKEN = "";
 
 function commandIs(str, msg){
-    return msg.content.toLowerCase().startsWith('>' + str);
+    return msg.content.toLowerCase().startsWith('$' + str);
 }
 
 function pluck(array) {
@@ -326,7 +321,7 @@ function hasRole(mem, role) {
 
 
 client.on('message', message => {
-     if (message.content === ">srv") {
+     if (message.content === "$srv") {
 		 if(!message.channel.guild) return;
      let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
@@ -344,7 +339,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-     if (message.content === ">ping") {
+     if (message.content === "$ping") {
       const embed = new Discord.RichEmbed()
  
   .setColor("#FF0000")
@@ -367,7 +362,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content === ">roles") {
+    if (message.content === "$roles") {
 		if(!message.channel.guild) return;
         var roles = message.guild.roles.map(roles => `${roles.name}, `).join(' ')
         const embed = new Discord.RichEmbed()
@@ -390,7 +385,7 @@ client.on('message', message => {
 
 
 
-   var prefix = ">";
+   var prefix = "$";
 var cats = [
 
 "https://d.top4top.net/p_902xtbbr1.jpg",
@@ -501,7 +496,7 @@ message.channel.sendEmbed(gore);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`>help | by HiMoxY™#7445 |twitch.tv/HiMoxYTM| ${client.guilds.size} Servers`,)
+client.user.setGame(`$help | by HiMoxY™#7445 |twitch.tv/HiMoxYTM| ${client.guilds.size} Servers`,)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -696,7 +691,7 @@ const Client = new Discord.Client();
 
 
 client.on("message", message => {
-     if (message.content === ">twitch") {
+     if (message.content === "$twitch") {
          if(!message.channel.guild) return message.reply('** This command only for servers **');
         message.reply("this is my twitch channel💯 : https://www.twitch.tv/himoxytm :) ")
      }
@@ -706,7 +701,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
-     if (message.content === ">donation") {
+     if (message.content === "$donation") {
          if(!message.channel.guild) return message.reply('** This command only for servers **');
         message.reply("If you want to support us click this link and show some love!💰💰 : https://www.paypal.me/HiMoxY")
      }
@@ -722,7 +717,7 @@ client.on("message", message => {
 
 
 
-  var prefix = ">";
+  var prefix = "$";
     client.on('message', message => {
     if(message.content.startsWith(prefix + 'avatar')) {
          var men = message.mentions.users.first();
@@ -932,7 +927,7 @@ Server owner: __${guild.owner}__**`)
 
 
 client.on("message", message => {
-    var prefix = ">clear";
+    var prefix = "$clear";
  
             var args = message.content.substring(prefix.length).split(" ");
             if (message.content.startsWith(prefix - "clear")) {
@@ -1094,7 +1089,7 @@ const cuttweet = [
 ]
 
 client.on('message', message => {
-  if (message.content === `>qa`) {
+  if (message.content === `$qa`) {
 message.channel.sendMessage({embed: {
   color: 3547003,
   description: `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`
@@ -1160,7 +1155,7 @@ client.on("guildMemberAdd", member => {
 
 
 
-var prefix = ">";
+var prefix = "$";
 
 client.on('message', message => {
   if (message.author.bot) return;
@@ -1207,7 +1202,7 @@ if (command == "embed") {
 
 
 client.on('message', message => {
-   if (message.content === ">id") {
+   if (message.content === "$id") {
    let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
   .setFooter(" HiMoxY™")
@@ -1228,7 +1223,7 @@ client.on('message', message => {
 
 
 client.on("message", message => {
-    var prefix = ">";
+    var prefix = "$";
             var args = message.content.substring(prefix.length).split(" ");
             if (message.content.startsWith(prefix + "clear")) {
 				         if (!message.member.hasPermission("ADMINISTRATOR"))  return;
@@ -1255,7 +1250,7 @@ client.on("message", message => {
 
 
 
-var prefix = ">";
+var prefix = "$";
 client.on('message', message => {
     if(message.content == prefix + 'server') {
         var servername = message.guild.name
@@ -1290,7 +1285,7 @@ client.on('message', message => {
 
 
 
-var prefix = ">";
+var prefix = "$";
 client.on("message", message => {
 
             if (message.content.startsWith(prefix + "himoxy")) {
@@ -1309,7 +1304,7 @@ client.on("message", message => {
 
 
 client.on("message", message => {
-     var prefix = ">";
+     var prefix = "$";
     if(message.content.startsWith(prefix + 'roomtimer')) {
      let args = message.content.split(" ").slice(1);
        var nam = args.join(' ');
@@ -1368,7 +1363,7 @@ client.on('message' , async (message) => {
 
 
 
-   var prefix = ">";
+   var prefix = "$";
 var gif = [
 
 "https://media.giphy.com/media/aFTt8wvDtqKCQ/giphy.gif",
@@ -1491,7 +1486,7 @@ message.channel.send({embed});
 client.on('message', message => {
     
    if(message.member.hasPermission('MANAGE_ROLES')) 
-    if (message.content === "s!rl") {
+    if (message.content === "$roles") {
         client.guilds.forEach(m =>{
  message.guild.createRole({
        name : "⚒Owner⚒",
@@ -1554,7 +1549,7 @@ client.on('message', message => {
  
 });
 client.on('message', message => {
-    if (message.content === ">vc") {
+    if (message.content === "$vc") {
     if(!message.channel.guild) return message.channel.send('**This Command Only For Servers !**')
             if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.channel.send(`**${message.author.username} You Dont Have** ``MANAGE_CHANNELS`` **Premission**`);
 
@@ -1600,7 +1595,7 @@ message.channel.sendMessage('**Please wait for what the server is doing We are n
 
 
 client.on('message', msg => {
-  if (msg.content === '>cs') {
+  if (msg.content === '$cs') {
     msg.reply('الرجاء التأكد من اعطاء البوت خاصية الـ(MANAGE_CHANNELS و MANAGE_ROLES) ');
   }
 });
@@ -1635,7 +1630,7 @@ client.on('message', function(message) {
 
 
 
-            var prefix = ">";
+            var prefix = "$";
 client.on('message', message => {
          if (message.content === prefix + "dt") {
          if (!message.channel.guild) return message.reply('** This command only for servers **');  
@@ -1706,7 +1701,7 @@ client.on('message', message => {
 
 
 client.on('message', message => {
-    if (message.content.startsWith(">stats")) {
+    if (message.content.startsWith("$stats")) {
     message.channel.send({
         embed: new Discord.RichEmbed()
             .addField('Uptime', timeCon(process.uptime()), true)
@@ -1729,7 +1724,7 @@ function timeCon(time) {
 }
 
 client.on('message', message => {
-    var prefix = ">"
+    var prefix = "$"
     let command = message.content.split(" ")[0];
   command = command.slice(prefix.length);
 
@@ -1767,7 +1762,7 @@ message.channel.sendFile(canvas.toBuffer());
 
 
 
-    var prefix = ">";
+    var prefix = "$";
 var animal = ["https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg","http://www.dogbazar.org/wp-content/uploads/2014/09/british-bull-dog-puppies.jpg","http://cdn2-www.dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/standing-7.jpg","http://cdn.akc.org/Marketplace/Breeds/German_Shepherd_Dog_SERP.jpg","https://animalso.com/wp-content/uploads/2016/12/black-german-shepherd_2.jpg","https://static.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpg","https://www.petfinder.com/wp-content/uploads/2012/11/101438745-cat-conjunctivitis-causes.jpg","http://www.i-love-cats.com/images/2015/04/12/cat-wallpaper-38.jpg","https://www.aspca.org/sites/default/files/cat-care_urine-marking_main-image.jpg","https://s-media-cache-ak0.pinimg.com/originals/f0/3b/76/f03b7614dfadbbe4c2e8f88b69d12e04.jpg","http://www.rd.com/wp-content/uploads/sites/2/2016/04/15-cat-wants-to-tell-you-attention.jpg","https://www.thelocal.de/userdata/images/article/fa6fd5014ccbd8f4392f716473ab6ff354f871505d9128820bbb0461cce1d645.jpg","https://www.adelaidezoo.com.au/wp-content/uploads/sites/2/animals/GiantPanda3Slider.jpg","http://imagem.band.com.br/f_230168.jpg"]
     client.on('message', message => {
         var args = message.content.split(" ").slice(1);
@@ -1784,7 +1779,7 @@ message.channel.sendEmbed(animal);
 
 
 client.on('message', message => {
-    if(message.content == '-server') {
+    if(message.content == '$server') {
     const embed = new Discord.RichEmbed()
     .setDescription(`
 **   📗  online:  **__${message.guild.members.filter(m=>m.presence.status == 'online').size}__
@@ -1916,7 +1911,7 @@ client.on('message',  (message) => {
 
  client.on('message', message => {   
 if (message.author.boss) return;
-var prefix = ">";
+var prefix = "$";
 if (!message.content.startsWith(prefix)) return;
 let command = message.content.split(" ")[0];
 command = command.slice(prefix.length);
