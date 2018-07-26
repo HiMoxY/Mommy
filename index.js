@@ -222,7 +222,7 @@ client.on("message", message => {
       .setColor("RANDOM")
       .setFooter(" HiMoxY™")
       .setTimestamp()
-      .setFooter('© HiMoxY™ Bot All rights reserved')
+      .setFooter('© Chilled Bot All rights reserved')
       .addField('Thank you for using Premium Bot📌', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=471836577027457026`)
   message.channel.send({embed});
 
@@ -266,7 +266,7 @@ client.on("message", message => {
  if (message.content === ">support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter(" HiMoxY™")
+      .setFooter(" Chilled Bot")
       .setTimestamp()
       .setFooter('© HiMoxY™ Bot All rights reserved')  
       .addField('Server Technical Support', ` join support server discord HiMoxY™🔧🔧 : https://discord.gg/WSXUkRG  `)
@@ -349,7 +349,7 @@ client.on('message', message => {
  
   .setColor("#FF0000")
   .addField('``The speed of the bot connection`` ' , `${Date.now() - message.createdTimestamp}` + 'ms`')
-                 .setFooter(` HiMoxY™.`, 'https://e.top4top.net/p_8913asvp1.jpg')
+                 .setFooter(` Chilled Bot.`, 'https://e.top4top.net/p_8913asvp1.jpg')
                  .setTimestamp()
   message.channel.sendEmbed(embed);
     }
@@ -372,7 +372,7 @@ client.on('message', message => {
         var roles = message.guild.roles.map(roles => `${roles.name}, `).join(' ')
         const embed = new Discord.RichEmbed()
         .setColor('RANDOM')
-	.setFooter(" HiMoxY™")
+	.setFooter(" Chilled Bot")
         .setTimestamp()
         .addField('Roles:',`**[${roles}]**`)
         message.channel.sendEmbed(embed);
@@ -734,7 +734,7 @@ client.on("message", message => {
       }
   var avatar = new Discord.RichEmbed()
 .setColor('RANDOM')
-.setFooter(" HiMoxY™")
+.setFooter(" Chilled Bot")
 .setTimestamp()
 .setTitle(heg.username)
 .setImage(heg.avatarURL)
@@ -848,7 +848,7 @@ if (command == "by") {
     .setColor('RANDOM')
     .setAuthor(msg.author.username, msg.author.avatarURL)
     .setDescription(args.join(" "))
-    .setFooter(" HiMoxY™ ")
+    .setFooter(" Chilled Bot ")
     .setTimestamp()
     msg.channel.sendEmbed(embed);
     msg.delete();
@@ -947,7 +947,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "© HiMoxY™."
+          text: "© Chilled Bot."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -1183,7 +1183,7 @@ if (command == "embed") {
     let say = new Discord.RichEmbed()
     .setDescription(args.join("  "))
     .setColor(0x23b2d6)
-    .setFooter(" HiMoxY™")
+    .setFooter(" Chilled Bot")
     .setTimestamp()
     message.channel.sendEmbed(say);
     message.delete();
@@ -1278,7 +1278,7 @@ client.on('message', message => {
         .addField('``SERVER FROM``', بلدالسيرفر)
         .addField('opening server date', عمل)
         .setColor('RANDOM')
-	.setFooter(" HiMoxY™ ")
+	.setFooter(" Chilled Bot ")
         .setTimestamp()
 
         message.channel.sendEmbed(server)
@@ -1453,7 +1453,7 @@ var gif = [
     if(message.content.startsWith(prefix + 'gif')) {
          var gore = new Discord.RichEmbed()
       .setColor('RANDOM')
-      .setFooter(" HiMoxY™")
+      .setFooter(" Chilled Bot")
       .setTimestamp()
       .setImage(gif[Math.floor(Math.random() * gif.length)])
 message.channel.sendEmbed(gore);
@@ -1873,7 +1873,7 @@ client.on('message', message => {
 .addField(' members👥 ',` [${client.users.size}] `)
 .addField('ROOMS📚 ',`[${client.channels.size}]`) 
 .addField(' ping🚀 ',`[${Date.now() - message.createdTimestamp}]`) 
-.addField('owner of  the bot ',`@HiMoxY™#1027 `)
+.addField('owner of  the bot ',`@HiMoxY™#7445 `)
 .setColor('#7d2dbe')
   message.channel.sendEmbed(embed);
     }
