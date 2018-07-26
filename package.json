@@ -1,14 +1,17 @@
 {
-  "name": "music",
+  "name": "himoxy",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "random-puppy": "^1.1.0",
+    "superagent": "^3.8.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "discord.js": "^11.3.2"
-  }
+  "license": "ISC"
 }
