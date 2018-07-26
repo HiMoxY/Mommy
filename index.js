@@ -223,7 +223,7 @@ client.on("message", message => {
       .setFooter(" HiMoxY™")
       .setTimestamp()
       .setFooter('© HiMoxY™ Bot All rights reserved')
-      .addField('Thank you for using Premium Bot📌', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=471832244411957250`)
+      .addField('Thank you for using Premium Bot📌', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=471836577027457026`)
   message.channel.send({embed});
 
  }
