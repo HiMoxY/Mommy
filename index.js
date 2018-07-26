@@ -496,7 +496,7 @@ message.channel.sendEmbed(gore);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help | by HiMoxY™#7445 |twitch.tv/HiMoxYTM| ${client.guilds.size} Servers`,)
+client.user.setGame(`$help | ${client.guilds.size} Servers`,)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
