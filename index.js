@@ -1332,7 +1332,7 @@ client.on('message' , async (message) => {
               
  let responses = [
         '**how can i help you?**',
-        '**Hello, Welcome to HiMoxY Bot Support, if you need any help ask in** #support-himoxy™-bot ',
+        '**Hello, Welcome to Chilled Zone, if you need any help go to** #rules',
         '**ask ** @DEVELOPER  or @SUPPORTERS ',
         '**what do you want?** ',
         '**Hi**',
@@ -1342,7 +1342,7 @@ client.on('message' , async (message) => {
 		'**you need help?**',
 		'**if you need any help about the bot ask @HiMoxY™#1027 !**',
 		'**you need help?**',
-		'**go to** #support-other ',
+		'**go to** #rules',
 		'**you need help?**',
 		'**you need help?**',
     ]
@@ -1877,7 +1877,7 @@ client.on('message', message => {
 
 
 client.on('message',  (message) => {
-        if(message.content.startsWith('>punch')) {
+        if(message.content.startsWith('$punch')) {
   let user = message.mentions.users.first();
   if (!user) {
     /**
