@@ -14,7 +14,7 @@ client.on('message', msg => {
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help |HiMoxYTM | ${client.guilds.size} Servers`,)
+client.user.setGame(`DONT TALK TO ME|${client.guilds.size} Servers`,)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
