@@ -97,27 +97,6 @@ client.on('message', message => {
 
 
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-
-client.on('message', msg => {
-  if (msg.content === 'discord') {
-    msg.reply('https://discord.gg/WSXUkRG');
-  }
-});
-
-
-
-
-
-client.on('message', msg => {
-  if (msg.content === '$play') {
-    msg.reply('i dont play any game :)');
-  }
-});
-
-
 
 
 
@@ -224,39 +203,6 @@ client.on("message", message => {
  }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 client.on("message", message => {
  if (message.content === "$support") {
   const embed = new Discord.RichEmbed()
@@ -270,56 +216,6 @@ client.on("message", message => {
  }
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const TOKEN = "";
-
-function commandIs(str, msg){
-    return msg.content.toLowerCase().startsWith('$' + str);
-}
-
-function pluck(array) {
-    return array.map(function(item) { return item["name"]; });
-}
-
-function hasRole(mem, role) {
-    if(pluck(mem.roles).includes(role)){
-        return true;
-    } else {
-        return false;
-    }
-
-  }
-  
-  
-  
-
-
-
-
-
-
-
-
 client.on('message', message => {
      if (message.content === "$srv") {
 		 if(!message.channel.guild) return;
@@ -329,14 +225,6 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
     }
 });
-
-
-
-
-
-
-
-
 
 client.on('message', message => {
      if (message.content === "$ping") {
@@ -350,17 +238,6 @@ client.on('message', message => {
     }
 });
 
-
-
-
-
-
-
-
-
-
-
-
 client.on('message', message => {
     if (message.content === "$roles") {
 		if(!message.channel.guild) return;
@@ -373,17 +250,6 @@ client.on('message', message => {
         message.channel.sendEmbed(embed);
     }
 });
-
-
-
-
-
-
-
-
-
-
-
 
    var prefix = "$";
 var cats = [
@@ -496,7 +362,7 @@ message.channel.sendEmbed(gore);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help | ${client.guilds.size} Servers`,)
+client.user.setGame(`$help |HiMoxYTM | ${client.guilds.size} Servers`,)
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -521,114 +387,6 @@ client.user.setGame(`$help | ${client.guilds.size} Servers`,)
 });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const Client = new Discord.Client();
-
-
-
-
-
-
-
-         client.on('message', message => {
-            if (message.content === 'برب') {
-              message.channel.sendFile("./tyt.png");
-            }
-         });
-
-
-
-
-         client.on('message', message => {
-            if (message.content === 'ق1') {
-              message.channel.sendFile("./5.png");
-            }
-         });
-
-
-
-
-
-         client.on('message', message => {
-            if (message.content === 'السلام عليكم') {
-              message.channel.sendFile("./5bz.png");
-            }
-         });
-
-
-
-
-
-
-
-
-         client.on('message', message => {
-            if (message.content === 'حشيش') {
-              message.channel.sendFile("./2.png");
-            }
-         });
-
-
-
-
-
-
-
-
-         client.on('message', message => {
-            if (message.content === 'باك') {
-              message.channel.sendFile("./WLC.png");
-            }
-         });
-         
-         
-         
-         
-         
-         
-         
-         
-         
-                 client.on('message', message => {
-            if (message.content === 'ترحيب') {
-              message.channel.sendFile("./1.jpg");
-            }
-         });
 
 
 
