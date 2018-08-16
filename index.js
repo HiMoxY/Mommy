@@ -1048,7 +1048,7 @@ client.on('message', message => {
     }
 });	
 client.on('message', message => {
-            if (message.content.startsWith(prefix + "bot")) {
+            if (message.content.startsWith(prefix + "infobot")) {
      let embed = new Discord.RichEmbed()
 .setThumbnail(message.author.avatarURL)
 .addField(' servers🌐',`[${client.guilds.size}]  `)
