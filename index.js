@@ -1323,7 +1323,7 @@ client.on('message',message =>{
   var embed = new Discord.RichEmbed()
   .setColor("#000000")
   .setDescription(`${invites.join(`\n`)+'\n\n**By:** '+message.author}`)
-  .setThumbnail("https://c.top4top.net/p_955lizw61.jpg")
+  .setThumbnail("https://a.top4top.net/p_958vwue01.png")
            message.channel.send({ embed: embed });
    
   });
