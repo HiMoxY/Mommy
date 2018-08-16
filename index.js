@@ -1236,20 +1236,20 @@ client.on('message', msg => {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '472046893346717712').setName("w");
-client.channels.find('id', '472046893346717712').setName("we");
-client.channels.find('id', '472046893346717712').setName("wel");
-client.channels.find('id', '472046893346717712').setName("welc");
-client.channels.find('id', '472046893346717712').setName("welco ");
-client.channels.find('id', '472046893346717712').setName("welcome");
-client.channels.find('id', '472046893346717712').setName("welcome To");
-client.channels.find('id', '472046893346717712').setName("welcome TO ");
-client.channels.find('id', '472046893346717712').setName("welcome TO s");
-client.channels.find('id', '472046893346717712').setName("welcome To se ");
-client.channels.find('id', '472046893346717712').setName("welcome To ser ");
-client.channels.find('id', '472046893346717712').setName("welcome To serv ");
-client.channels.find('id', '472046893346717712').setName("welcome To serve ");
-client.channels.find('id', '472046893346717712').setName("welcome To server ");
+client.channels.find('id', '478201694275108864').setName("w");
+client.channels.find('id', '478201694275108864').setName("we");
+client.channels.find('id', '478201694275108864').setName("wel");
+client.channels.find('id', '478201694275108864').setName("welc");
+client.channels.find('id', '478201694275108864').setName("welco ");
+client.channels.find('id', '478201694275108864').setName("welcome");
+client.channels.find('id', '478201694275108864').setName("welcome an");
+client.channels.find('id', '478201694275108864').setName("welcome and ");
+client.channels.find('id', '478201694275108864').setName("welcome and l");
+client.channels.find('id', '478201694275108864').setName("welcome and le ");
+client.channels.find('id', '478201694275108864').setName("welcome and lea ");
+client.channels.find('id', '478201694275108864').setName("welcome and leav ");
+client.channels.find('id', '478201694275108864').setName("welcome and leav ");
+client.channels.find('id', '478201694275108864').setName("welcome and leave ");
 
 
   }, 3000);
@@ -1258,23 +1258,23 @@ client.channels.find('id', '472046893346717712').setName("welcome To server ");
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '472089012551548949').setName("🔊-");
-client.channels.find('id', '472089012551548949').setName("🔊-a");
-client.channels.find('id', '472089012551548949').setName("🔊-an");
-client.channels.find('id', '472089012551548949').setName("🔊-an");
-client.channels.find('id', '472089012551548949').setName("🔊-ann ");
-client.channels.find('id', '472089012551548949').setName("🔊-anno ");
-client.channels.find('id', '472089012551548949').setName("🔊-annou");
-client.channels.find('id', '472089012551548949').setName("🔊-annou ");
-client.channels.find('id', '472089012551548949').setName("🔊-announ");
-client.channels.find('id', '472089012551548949').setName("🔊-announ ");
-client.channels.find('id', '472089012551548949').setName("🔊-announc ");
-client.channels.find('id', '472089012551548949').setName("🔊-announce ");
-client.channels.find('id', '472089012551548949').setName("🔊-announcem ");
-client.channels.find('id', '472089012551548949').setName("🔊-announceme ");
-client.channels.find('id', '472089012551548949').setName("🔊-announcemen ");
-client.channels.find('id', '472089012551548949').setName("🔊-announcements ");
-client.channels.find('id', '472089012551548949').setName("🔊-announcements ");
+client.channels.find('id', '478850924090097676').setName("🔔-");
+client.channels.find('id', '478850924090097676').setName("📣-a");
+client.channels.find('id', '478850924090097676').setName("🔔-an");
+client.channels.find('id', '478850924090097676').setName("📣-an");
+client.channels.find('id', '478850924090097676').setName("🔔-ann ");
+client.channels.find('id', '478850924090097676').setName("📣-anno ");
+client.channels.find('id', '478850924090097676').setName("🔔-annou");
+client.channels.find('id', '478850924090097676').setName("📣-annou ");
+client.channels.find('id', '478850924090097676').setName("🔔-announ");
+client.channels.find('id', '478850924090097676').setName("📢-announ ");
+client.channels.find('id', '478850924090097676').setName("🔔-announc ");
+client.channels.find('id', '478850924090097676').setName("📢-announce ");
+client.channels.find('id', '478850924090097676').setName("🔔-announcem ");
+client.channels.find('id', '478850924090097676').setName("📢-announceme ");
+client.channels.find('id', '478850924090097676').setName("🔔-announcemen ");
+client.channels.find('id', '478850924090097676').setName("📢-announcements ");
+client.channels.find('id', '478850924090097676').setName("🔔-announcements ");
 
   }, 3000);
 });
@@ -1417,5 +1417,3 @@ client.on('message', (message) => {
         });
     }
 });
-
-client.login(process.env.TOKEN);
