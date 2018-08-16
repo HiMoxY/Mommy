@@ -1474,10 +1474,4 @@ if (message.content.startsWith('$serverinfo')) {
         }
     })
 
-
-
-
-
-}
-})
 client.login(process.env.TOKEN);
