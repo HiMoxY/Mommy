@@ -116,15 +116,15 @@ describe the your bot here
 
         ***__Games orders__***
  **      
-『?num / random number』
-『?qa / Ask you questions 』
+『$num / random number』
+『$qa / Ask you questions 』
 **
    
         
 `)
 
 
-message.channel.sendEmbed(embed)
+message.author.sendEmbed(embed)
 
 }
 }); 
