@@ -1279,7 +1279,7 @@ client.channels.find('id', '478850924090097676').setName("🔔-announcements ");
   }, 3000);
 });
 client.on('message', message => {
- if (message.content.startsWith("lit")) {
+ if (message.content.startsWith("himoxy")) {
                                  var mentionned = message.mentions.users.first();
              var mentionavatar;
                if(mentionned){
