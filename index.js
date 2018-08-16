@@ -41,8 +41,8 @@ client.on('message', msg => {
 
 
 client.on('message', msg => {
-  if (msg.content === 'play') {
-    msg.reply('i dont play any game :)');
+  if (msg.content === '36') {
+    msg.reply('mrid nta :)');
   }
 });
 
