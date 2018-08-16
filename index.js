@@ -40,28 +40,6 @@ client.user.setGame(`$help|on [${client.guilds.size}]Servers `,)
 });
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '478201694275108864').setName("w");
-client.channels.find('id', '478201694275108864').setName("we");
-client.channels.find('id', '478201694275108864').setName("wel");
-client.channels.find('id', '478201694275108864').setName("welc");
-client.channels.find('id', '478201694275108864').setName("welco ");
-client.channels.find('id', '478201694275108864').setName("welcome");
-client.channels.find('id', '478201694275108864').setName("welcome an");
-client.channels.find('id', '478201694275108864').setName("welcome and ");
-client.channels.find('id', '478201694275108864').setName("welcome and l");
-client.channels.find('id', '478201694275108864').setName("welcome and le ");
-client.channels.find('id', '478201694275108864').setName("welcome and lea ");
-client.channels.find('id', '478201694275108864').setName("welcome and leav ");
-client.channels.find('id', '478201694275108864').setName("welcome and leav ");
-client.channels.find('id', '478201694275108864').setName("welcome and leave ");
-
-
-  }, 3000);
-});
-
-
-client.on("ready", async  => {
-setInterval(function(){
 client.channels.find('id', '478850924090097676').setName("🔔-");
 client.channels.find('id', '478850924090097676').setName("📣-a");
 client.channels.find('id', '478850924090097676').setName("🔔-an");
