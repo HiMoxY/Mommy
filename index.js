@@ -1231,6 +1231,8 @@ client.channels.find('id', '480931428163649564').setName("🎮-toxic-only ");
 
   }, 3000);
 });
+
+
 client.on("ready", async  => {
 setInterval(function(){
 client.channels.find('id', '480930865611014164').setName("🔔-");
