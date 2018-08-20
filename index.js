@@ -1187,14 +1187,14 @@ client.channels.find('id', '480763604346339328').setName("wel");
 client.channels.find('id', '480763604346339328').setName("welc");
 client.channels.find('id', '480763604346339328').setName("welco ");
 client.channels.find('id', '480763604346339328').setName("welcome");
-client.channels.find('id', '480763604346339328').setName("welcome To");
-client.channels.find('id', '480763604346339328').setName("welcome TO ");
-client.channels.find('id', '480763604346339328').setName("welcome TO s");
-client.channels.find('id', '480763604346339328').setName("welcome To se ");
-client.channels.find('id', '480763604346339328').setName("welcome To ser ");
-client.channels.find('id', '480763604346339328').setName("welcome To serv ");
-client.channels.find('id', '480763604346339328').setName("welcome To serve ");
-client.channels.find('id', '480763604346339328').setName("welcome To server ");
+client.channels.find('id', '480763604346339328').setName("welcome ");
+client.channels.find('id', '480763604346339328').setName("welcome  ");
+client.channels.find('id', '480763604346339328').setName("welcome ");
+client.channels.find('id', '480763604346339328').setName("welcome  ");
+client.channels.find('id', '480763604346339328').setName("welcome  ");
+client.channels.find('id', '480763604346339328').setName("welcome  ");
+client.channels.find('id', '480763604346339328').setName("welcome ");
+client.channels.find('id', '480763604346339328').setName("welcome  ");
 
 
   }, 3000);
