@@ -1181,20 +1181,20 @@ client.on('message', msg => {
 
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '480763604346339328').setName("w");
-client.channels.find('id', '480763604346339328').setName("we");
-client.channels.find('id', '480763604346339328').setName("wel");
-client.channels.find('id', '480763604346339328').setName("welc");
-client.channels.find('id', '480763604346339328').setName("welco ");
-client.channels.find('id', '480763604346339328').setName("welcome");
-client.channels.find('id', '480763604346339328').setName("welcome ");
-client.channels.find('id', '480763604346339328').setName("welcome  ");
-client.channels.find('id', '480763604346339328').setName("welcome ");
-client.channels.find('id', '480763604346339328').setName("welcome  ");
-client.channels.find('id', '480763604346339328').setName("welcome  ");
-client.channels.find('id', '480763604346339328').setName("welcome  ");
-client.channels.find('id', '480763604346339328').setName("welcome ");
-client.channels.find('id', '480763604346339328').setName("welcome  ");
+client.channels.find('id', '480763604346339328').setName("👇w");
+client.channels.find('id', '480763604346339328').setName("👆we");
+client.channels.find('id', '480763604346339328').setName("👇wel");
+client.channels.find('id', '480763604346339328').setName("👆welc");
+client.channels.find('id', '480763604346339328').setName("👇welco ");
+client.channels.find('id', '480763604346339328').setName("👆welcome");
+client.channels.find('id', '480763604346339328').setName("👇welcome ");
+client.channels.find('id', '480763604346339328').setName("👆welcome  ");
+client.channels.find('id', '480763604346339328').setName("👇welcome ");
+client.channels.find('id', '480763604346339328').setName("👆welcome  ");
+client.channels.find('id', '480763604346339328').setName("👇welcome  ");
+client.channels.find('id', '480763604346339328').setName("👆welcome  ");
+client.channels.find('id', '480763604346339328').setName("👇welcome ");
+client.channels.find('id', '480763604346339328').setName("👆welcome  ");
 
 
   }, 3000);
