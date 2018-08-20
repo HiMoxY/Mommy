@@ -214,7 +214,7 @@ message.channel.sendEmbed(gore);
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("?help | TWITCH.TV/HiMoxYTM |FAM server ",{type: 'WATCHING'})
+client.user.setActivity("?help | TWITCH.TV/HiMoxYTM |Toxic server ",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
