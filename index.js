@@ -101,7 +101,7 @@ client.on("message", message => {
       .setFooter(" HiMoxY™")
       .setTimestamp()
       .setFooter('© HiMoxY™ Bot All rights reserved')
-      .addField('Thank you for using Premium Bot📌', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=479756392295563265`)
+      .addField('Thank you for using Premium Bot📌', `https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=480928523507466240`)
 	  message.author.sendEmbed(embed)
  }
 });
