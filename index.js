@@ -57,11 +57,11 @@ client.on('message', message => {
     message.channel.fetchMessages({limit: messagecount})
         .then(messages => message.channel.bulkDelete(messages));
   }
-	if (message.content === '?himo') {
+	if (message.content === '?rap') {
     if (message.member.voiceChannel) {       
         message.member.voiceChannel.join()
         .then(connection => {
-        connection.playStream("https://streaming.radionomy.com/QGProdRadioRapMarocain
+        connection.playStream("https://streaming.radionomy.com/QGProdRadioRapMarocain"); //for playing an audiostream/radio
         })
         .catch(console.log);
         message.reply('Joined and started playing.');
@@ -115,7 +115,7 @@ client.on('message', msg => {
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("?himo|server ",{type: 'WATCHING'})
+client.user.setActivity("?rap|DST server ",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
