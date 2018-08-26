@@ -61,7 +61,7 @@ client.on('message', message => {
     if (message.member.voiceChannel) {       
         message.member.voiceChannel.join()
         .then(connection => {
-        connection.playStream("http://19763.live.streamtheworld.com/977_HITS.mp3"); //for playing an audiostream/radio
+        connection.playStream("https://streaming.radionomy.com/QGProdRadioRapMarocain
         })
         .catch(console.log);
         message.reply('Joined and started playing.');
@@ -72,7 +72,7 @@ client.on('message', message => {
 });
 client.on('message', msg => {
   if (msg.content === '.invite') {
-    msg.reply('https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=463918426587660289');
+    msg.reply('https://discordapp.com/oauth2/authorize/?permissions=805314622&scope=bot&client_id=483372321189658624');
   }
 });
 client.on('message', msg => {
