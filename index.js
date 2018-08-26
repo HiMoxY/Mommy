@@ -57,7 +57,7 @@ client.on('message', message => {
     message.channel.fetchMessages({limit: messagecount})
         .then(messages => message.channel.bulkDelete(messages));
   }
-	if (message.content === '?kos') {
+	if (message.content === '?himo') {
     if (message.member.voiceChannel) {       
         message.member.voiceChannel.join()
         .then(connection => {
@@ -115,7 +115,7 @@ client.on('message', msg => {
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("?kos|server ",{type: 'WATCHING'})
+client.user.setActivity("?himo|server ",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
