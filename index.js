@@ -200,7 +200,7 @@ message.channel.sendEmbed(gore);
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("?help | TWITCH.TV/HiMoxYTM |DST server ",{type: 'WATCHING'})
+client.user.setActivity("DM alexflinken#0055 for deal ",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -260,7 +260,7 @@ client.on("message", message => {
       }
   var avatar = new Discord.RichEmbed()
 .setColor('RANDOM')
-.setFooter(" HiMoxY™")
+.setFooter(" selling bins")
 .setTimestamp()
 .setTitle(heg.username)
 .setImage(heg.avatarURL)
@@ -282,7 +282,7 @@ if (command == "by") {
     .setColor('RANDOM')
     .setAuthor(msg.author.username, msg.author.avatarURL)
     .setDescription(args.join(" "))
-    .setFooter(" HiMoxY™ ")
+    .setFooter(" selling bins ")
     .setTimestamp()
     msg.channel.sendEmbed(embed);
     msg.delete();
@@ -309,7 +309,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "© HiMoxY."
+          text: "© selling bins."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
@@ -452,7 +452,7 @@ if (command == "embed") {
     let say = new Discord.RichEmbed()
     .setDescription(args.join("  "))
     .setColor(0x23b2d6)
-    .setFooter(" HiMoxY™")
+    .setFooter(" selling bins")
     .setTimestamp()
     message.channel.sendEmbed(say);
     message.delete();
@@ -464,7 +464,7 @@ client.on('message', message => {
    if (message.content === "?id") {
    let embed = new Discord.RichEmbed()
   .setColor("RANDOM")
-  .setFooter(" Tinder™")
+  .setFooter(" selling bins")
   .setTimestamp()
   .setThumbnail(message.author.avatarURL)
   .addField("Name:",`${message.author.username}`, true)
@@ -522,7 +522,7 @@ client.on('message', message => {
         .addField('``SERVER FROM``', بلدالسيرفر)
         .addField('opening server date', عمل)
         .setColor('RANDOM')
-	.setFooter(" HiMoxY™ ")
+	.setFooter(" selling bins ")
         .setTimestamp()
 
         message.channel.sendEmbed(server)
@@ -669,7 +669,7 @@ var gif = [
     if(message.content.startsWith(prefix + 'gif')) {
          var gore = new Discord.RichEmbed()
       .setColor('#00ff3f')
-      .setFooter(" HiMoxY™")
+      .setFooter(" selling bins")
       .setTimestamp()
       .setImage(gif[Math.floor(Math.random() * gif.length)])
 message.channel.sendEmbed(gore);
@@ -689,113 +689,7 @@ if(message.content === prefix + "server-av"){
 message.channel.send({embed});
 }
 });
-client.on('message', message => {
-    
-   if(message.member.hasPermission('MANAGE_ROLES')) 
-    if (message.content === "?rl") {
-        client.guilds.forEach(m =>{
- message.guild.createRole({
-       name : "⚒Owner⚒",
-       permissions :   [2146958591],
-       color : " #000000"
-   }) 
-   message.guild.createRole({
-       name : "🔧M Owner🔧",
-       permissions :   [326630611],
-       color : " #000000"
-   })
-   message.guild.createRole({
-       name : "⚔ Moderator ⚔",
-       permissions :   [58195153],
-       color : " #000000"
-   })
-   message.guild.createRole({
-       name : "⚒ Senior Staff ⚒",
-       permissions :   [58195137],
-       color : " #000000"
-   })
-   message.guild.createRole({
-       name : "🛠 Staff 🛠",
-       permissions :   [58195137],
-       color : " #000000"
-   })
-   message.guild.createRole({
-       name : "CUSTOM BOTS",
-       permissions :   [58186945],
-       color : " #000000"
-   })
-   message.guild.createRole({
-       name : "🛠 Chat-Mod 🛠",
-       permissions :   [53992641],
-       color : " #000000"
-   })
 
-   message.guild.createRole({
-       name : "🛠VC-Mod🛠",
-       permissions :   [53992641],
-       color : " #000000"
-   })
-   message.guild.createRole({
-       name : "🛠JUNIOR-MODERATOR🛠",
-       permissions :   [53992641],
-       color : " #000000"
-   })
-   message.guild.createRole({
-       name : "🛠 Partnership-Manager 🛠",
-       permissions :   [1],
-       color : " #000000"
-   }) 
-      message.guild.createRole({
-       name : "🛠 Event Manager 🛠",
-       permissions :   [1],
-       color : " #000000"
-   }) 
-})
-}
- 
-});
-client.on('message', message => {
-    if (message.content === "?vc") {
-    if(!message.channel.guild) return message.channel.send('**This Command Only For Servers !**')
-            if (!message.member.hasPermission('MANAGE_CHANNELS')) return message.channel.send(`**${message.author.username} You Dont Have** ``MANAGE_CHANNELS`` **Premission**`);
-
-		
-     message.guild.createChannel('🔒Réunion🔒', 'voice')
-   	 message.guild.createChannel('🎮GAMING🎮', 'voice')
-	 message.guild.createChannel('📞-public-1-📞', 'voice')
-	 message.guild.createChannel('📞-public-2-📞', 'voice')
-	 message.guild.createChannel('📞-public-3-📞', 'voice')
-	 message.guild.createChannel('📞-public-4-📞', 'voice')
-	 message.guild.createChannel('📞-public-5-📞', 'voice')
-	 message.guild.createChannel('📞-public-6-📞', 'voice')
-	 message.guild.createChannel('📞-public-7-📞', 'voice')
-	 message.guild.createChannel('📞-public-8-📞', 'voice')
-	 message.guild.createChannel('📞-public-9-📞', 'voice')
-	 message.guild.createChannel('📞-public-10-📞', 'voice')
-	 message.guild.createChannel('📞-public-11-📞', 'voice')
-	 message.guild.createChannel('📞-public-12-📞', 'voice')
-	 message.guild.createChannel('📞-public-13-📞', 'voice')
-	 message.guild.createChannel('welcome', 'text')
-	 message.guild.createChannel('rules', 'text')
-	 message.guild.createChannel('announcements', 'text')
-	 message.guild.createChannel('notification', 'text')
-	 message.guild.createChannel('new-members', 'text')
-	 message.guild.createChannel('✔sign-up✔', 'text')
-	 message.guild.createChannel('streaming-channel', 'text')
-	 message.guild.createChannel('bot-commands', 'text')
-	 message.guild.createChannel('memes', 'text')
-	 message.guild.createChannel('info', 'text')
-	 message.guild.createChannel('change-log', 'text')
-	 message.guild.createChannel('chat', 'text')
-	 message.guild.createChannel('Youtube', 'text')
-	 message.guild.createChannel('suggestions', 'text')
-	 message.guild.createChannel('Event', 'text')
-	 message.guild.createChannel('share-your-link', 'text')
-
-
-message.channel.sendMessage('**Please wait for what the server is doing We are not responsible for any malfunctions that occur, but rather because of the repetition of the matter. Thank you**')
-}
-});
 client.on('message', function(message) {
     if(message.content.startsWith(prefix + 'num')) {
         let args = message.content.split(" ").slice(1);
@@ -955,7 +849,7 @@ client.on('message', async message => {
     .setDescription(`**${message.author.username}** hugged **${message.mentions.users.first().username}**!`)
     .setImage(body.url)
     .setColor("RANDOM")
-    .setFooter("Bot HiMoxY™", client.user.displayAvatarURL);
+    .setFooter("selling bins", client.user.displayAvatarURL);
 
     message.channel.send(hugEmbed)
 }
@@ -1132,68 +1026,45 @@ client.on('message', msg => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
                   .addField('``My Prefix``' , `[ ! ]` , true)
                   .addField('``My Language``' , `[ Java Script ]` , true)
-                  .setFooter('By | HiMoxY™#1027')
+                  .setFooter('By | selling bins')
     })
 }
 });
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '482311081721593866').setName("w");
-client.channels.find('id', '482311081721593866').setName("we");
-client.channels.find('id', '482311081721593866').setName("wel");
-client.channels.find('id', '482311081721593866').setName("welc");
-client.channels.find('id', '482311081721593866').setName("welco");
-client.channels.find('id', '482311081721593866').setName("welcom ");
-client.channels.find('id', '482311081721593866').setName("welcome ");
-client.channels.find('id', '482311081721593866').setName("welcome-3");
-client.channels.find('id', '482311081721593866').setName("welcome-3a ");
-client.channels.find('id', '482311081721593866').setName("welcome-3an");
-client.channels.find('id', '482311081721593866').setName("welcome-3and");
-client.channels.find('id', '482311081721593866').setName("welcome-3and- ");
-client.channels.find('id', '482311081721593866').setName("welcome-3and-s ");
-client.channels.find('id', '482311081721593866').setName("welcome-3and-s  ");
-client.channels.find('id', '482311081721593866').setName("welcome-3and-si  ");
-client.channels.find('id', '482311081721593866').setName("welcome-3and-sid ");
-client.channels.find('id', '482311081721593866').setName("welcome-3and-sidn ");
-client.channels.find('id', '482311081721593866').setName("welcome-3and-sidna ");
-
-  }, 3000);
-});
-client.on("ready", async  => {
-setInterval(function(){
 client.channels.find('id', '482317714740871169').setName("🔔-");
-client.channels.find('id', '482317714740871169').setName("📣-c");
-client.channels.find('id', '482317714740871169').setName("🔔-c");
-client.channels.find('id', '482317714740871169').setName("📣-ch");
-client.channels.find('id', '482317714740871169').setName("🔔-cha ");
-client.channels.find('id', '482317714740871169').setName("📣-cha ");
-client.channels.find('id', '482317714740871169').setName("🔔-chat");
-client.channels.find('id', '482317714740871169').setName("📣-chat ");
-client.channels.find('id', '482317714740871169').setName("🔔-chati");
-client.channels.find('id', '482317714740871169').setName("📢-chati- ");
-client.channels.find('id', '482317714740871169').setName("🔔-chati- ");
-client.channels.find('id', '482317714740871169').setName("📢-chati-a ");
-client.channels.find('id', '482317714740871169').setName("🔔-chati-az ");
-client.channels.find('id', '482317714740871169').setName("📢-chati-az ");
-client.channels.find('id', '482317714740871169').setName("🔔-chati-aza ");
-client.channels.find('id', '482317714740871169').setName("📢-chati-azam ");
-client.channels.find('id', '482317714740871169').setName("🔔-chati-azam ");
+client.channels.find('id', '482317714740871169').setName("📣-b");
+client.channels.find('id', '482317714740871169').setName("🔔-bu");
+client.channels.find('id', '482317714740871169').setName("📣-buy");
+client.channels.find('id', '482317714740871169').setName("🔔-buy ");
+client.channels.find('id', '482317714740871169').setName("📣-buyi ");
+client.channels.find('id', '482317714740871169').setName("🔔-buyit");
+client.channels.find('id', '482317714740871169').setName("📣-buyin ");
+client.channels.find('id', '482317714740871169').setName("🔔-buying");
+client.channels.find('id', '482317714740871169').setName("📢-buying- ");
+client.channels.find('id', '482317714740871169').setName("🔔-buying-b ");
+client.channels.find('id', '482317714740871169').setName("📢-buying-bi ");
+client.channels.find('id', '482317714740871169').setName("🔔-buying-bin ");
+client.channels.find('id', '482317714740871169').setName("📢-buying-bins ");
+client.channels.find('id', '482317714740871169').setName("🔔-buying-bins ");
+client.channels.find('id', '482317714740871169').setName("📢-buying-bins ");
+client.channels.find('id', '482317714740871169').setName("🔔-buying-bins ");
 
   }, 3000);
 });
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '482343698366070794').setName("T");
-client.channels.find('id', '482343698366070794').setName("T");
-client.channels.find('id', '482343698366070794').setName("TA");
-client.channels.find('id', '482343698366070794').setName("TAB");
-client.channels.find('id', '482343698366070794').setName("TABO ");
-client.channels.find('id', '482343698366070794').setName("TABO ");
-client.channels.find('id', '482343698366070794').setName("TABON");
-client.channels.find('id', '482343698366070794').setName("TABON  ");
-client.channels.find('id', '482343698366070794').setName("TABON M");
-client.channels.find('id', '482343698366070794').setName("TABON MO ");
-client.channels.find('id', '482343698366070794').setName("TABON MOK ");
+client.channels.find('id', '482343698366070794').setName("r");
+client.channels.find('id', '482343698366070794').setName("ru");
+client.channels.find('id', '482343698366070794').setName("rul");
+client.channels.find('id', '482343698366070794').setName("rule");
+client.channels.find('id', '482343698366070794').setName("rules ");
+client.channels.find('id', '482343698366070794').setName("rules- ");
+client.channels.find('id', '482343698366070794').setName("rules-n");
+client.channels.find('id', '482343698366070794').setName("rules-n  ");
+client.channels.find('id', '482343698366070794').setName("rules-ne");
+client.channels.find('id', '482343698366070794').setName("rules-new ");
+client.channels.find('id', '482343698366070794').setName("rules-news ");
 
 
   }, 3000);
