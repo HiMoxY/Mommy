@@ -1032,39 +1032,39 @@ client.on('message', msg => {
 });
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '482317714740871169').setName("🔔-");
-client.channels.find('id', '482317714740871169').setName("📣-b");
-client.channels.find('id', '482317714740871169').setName("🔔-bu");
-client.channels.find('id', '482317714740871169').setName("📣-buy");
-client.channels.find('id', '482317714740871169').setName("🔔-buy ");
-client.channels.find('id', '482317714740871169').setName("📣-buyi ");
-client.channels.find('id', '482317714740871169').setName("🔔-buyit");
-client.channels.find('id', '482317714740871169').setName("📣-buyin ");
-client.channels.find('id', '482317714740871169').setName("🔔-buying");
-client.channels.find('id', '482317714740871169').setName("📢-buying- ");
-client.channels.find('id', '482317714740871169').setName("🔔-buying-b ");
-client.channels.find('id', '482317714740871169').setName("📢-buying-bi ");
-client.channels.find('id', '482317714740871169').setName("🔔-buying-bin ");
-client.channels.find('id', '482317714740871169').setName("📢-buying-bins ");
-client.channels.find('id', '482317714740871169').setName("🔔-buying-bins ");
-client.channels.find('id', '482317714740871169').setName("📢-buying-bins ");
-client.channels.find('id', '482317714740871169').setName("🔔-buying-bins ");
+client.channels.find('id', '530428980487127069').setName("🔔-");
+client.channels.find('id', '530428980487127069').setName("📣-b");
+client.channels.find('id', '530428980487127069').setName("🔔-bu");
+client.channels.find('id', '530428980487127069').setName("📣-buy");
+client.channels.find('id', '530428980487127069').setName("🔔-buy ");
+client.channels.find('id', '530428980487127069').setName("📣-buyi ");
+client.channels.find('id', '530428980487127069').setName("🔔-buyit");
+client.channels.find('id', '530428980487127069').setName("📣-buyin ");
+client.channels.find('id', '530428980487127069').setName("🔔-buying");
+client.channels.find('id', '530428980487127069').setName("📢-buying- ");
+client.channels.find('id', '530428980487127069').setName("🔔-buying-b ");
+client.channels.find('id', '530428980487127069').setName("📢-buying-bi ");
+client.channels.find('id', '530428980487127069').setName("🔔-buying-bin ");
+client.channels.find('id', '530428980487127069').setName("📢-buying-bins ");
+client.channels.find('id', '530428980487127069').setName("🔔-buying-bins ");
+client.channels.find('id', '530428980487127069').setName("📢-buying-bins ");
+client.channels.find('id', '530428980487127069').setName("🔔-buying-bins ");
 
   }, 3000);
 });
 client.on("ready", async  => {
 setInterval(function(){
-client.channels.find('id', '482343698366070794').setName("r");
-client.channels.find('id', '482343698366070794').setName("ru");
-client.channels.find('id', '482343698366070794').setName("rul");
-client.channels.find('id', '482343698366070794').setName("rule");
-client.channels.find('id', '482343698366070794').setName("rules ");
-client.channels.find('id', '482343698366070794').setName("rules- ");
-client.channels.find('id', '482343698366070794').setName("rules-n");
-client.channels.find('id', '482343698366070794').setName("rules-n  ");
-client.channels.find('id', '482343698366070794').setName("rules-ne");
-client.channels.find('id', '482343698366070794').setName("rules-new ");
-client.channels.find('id', '482343698366070794').setName("rules-news ");
+client.channels.find('id', '473227921767792661').setName("r");
+client.channels.find('id', '473227921767792661').setName("ru");
+client.channels.find('id', '473227921767792661').setName("rul");
+client.channels.find('id', '473227921767792661').setName("rule");
+client.channels.find('id', '473227921767792661').setName("rules ");
+client.channels.find('id', '473227921767792661').setName("rules- ");
+client.channels.find('id', '473227921767792661').setName("rules-n");
+client.channels.find('id', '473227921767792661').setName("rules-n  ");
+client.channels.find('id', '473227921767792661').setName("rules-ne");
+client.channels.find('id', '473227921767792661').setName("rules-new ");
+client.channels.find('id', '473227921767792661').setName("rules-news ");
 
 
   }, 3000);
