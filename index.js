@@ -200,7 +200,7 @@ message.channel.sendEmbed(gore);
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("DM alexflinken#0055 for deal ",{type: 'WATCHING'})
+client.user.setActivity("DM doritorrr#0055 for bin ",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
