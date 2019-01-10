@@ -14,7 +14,7 @@ client.on('message', msg => {
 });
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setActivity("?nijoze | Nijoze server ",{type: 'WATCHING'})
+client.user.setActivity(" Money Rewards ",{type: 'WATCHING'})
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
