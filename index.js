@@ -83,9 +83,7 @@ client.on('message', async message =>{
               if(!args) return;
                 let say = new Discord.RichEmbed()
                 .setDescription(`${args}`)
-                .setColor('#ffffff')
-                .setFooter("Money Rewards")
-                .setTimestamp()
+                .setColor('#02f35b')
                 message.channel.sendMessage(say);
               
               }
@@ -188,7 +186,7 @@ if (message.author.id === client.user.id) return;
 if (message.guild) {
 let embed = new Discord.RichEmbed()
 let args = message.content.split(' ').slice(1).join(' ');
-if(message.content.split(' ')[0] == prefix + 'bc2') {
+if(message.content.split(' ')[0] == prefix + 'send') {
 if(!message.channel.guild) return message.reply('**:x: اسف لكن هذا الامر للسيرفرات فقط **');        
 if (!args[1]) {
 return;
