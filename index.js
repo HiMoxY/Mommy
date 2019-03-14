@@ -70,7 +70,7 @@ client.on('message', message => {
 client.on('message', async message =>{
     if (message.channel.type === "dm") {
         if (message.author.id === client.user.id) return;
-        client.users.get("532694286387380257").send(
+        client.users.get("515625623499309068").send(
           "\n" + `**Message** : ${message.content}`+
           "\n" + `**Tag** : ${message.author.tag}  **ID** :${message.author.id}` )
   }
@@ -91,7 +91,7 @@ client.on('message', async message =>{
 client.on("message", async message => {
   if(message.content.startsWith("dwi")){
   if(!message.channel.guild) return ;
-  if (message.author.id !== "532694286387380257") return ;
+  if (message.author.id !== "515625623499309068") return ;
 message.delete();
    message.channel.send(message.content.split(" ").join(" ").slice(5));     
 }
