@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = '?'
 client.on('ready', () => {
-  client.user.setGame(`!help | By @HiMoxY™#1027 .`,'');
+  client.user.setGame(`HiMoxY | TwitterGiveaways .`,'');
   console.log('---------------');
   console.log(' Bot Is Online')
   console.log('---------------')
